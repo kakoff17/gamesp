@@ -102,6 +102,7 @@ router.post("/login", async (req, res, next) => {
       expiresIn: "10d",
     });
     res.json({ authToken: authToken });
+    
   } catch (error) {
     next(error);
   }

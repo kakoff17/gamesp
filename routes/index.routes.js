@@ -6,4 +6,6 @@ router.get("/", (req, res, next) => {
 });
 
 router.use("/auth", require("./auth.routes"))
+router.use("/games", require("./games.routes"))
+
 module.exports = router;

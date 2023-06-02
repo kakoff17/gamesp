@@ -1,5 +1,72 @@
 [
     {
-        
+        "name": "FIFA 23",
+        "description": "FIFA 23 es un simulador de fútbol de EA Sports, el último bajo esta denominación, que busca ofrecer al usuario el mejor videojuego de fútbol de la historia con más características, modos de juego, contenido del Mundial, clubes, ligas, competiciones y jugadores. Desde la firma norteamericana apuestan por llevar el juego del mundo al campo, con la tecnología HyperMotion2 que ofrece una experiencia de juego aún más realista, tanto la Copa del Mundo masculina como la femenina, que llegarán al juego más adelante en forma de actualización, la incorporación de equipos femeninos, funciones de juego cruzado, y mucho más.",
+        "image": "https://www.lavanguardia.com/files/article_main_microformat/uploads/2022/09/28/633374d106b46.jpeg",
+        "genre": ["Deportes"],
+        "platform": ["PS4", "PS5", "PC", "XBOX"]
+    }, 
+    {
+        "name": "Diablo IV",
+        "description": "Diablo 4 trae de vuelta la saga de rol y acción nº1 de Blizzard desafiándonos a acabar con incontables males, dominar un sinfín de facultades, superar mazmorras de pesadilla y coleccionar botín legendario.",
+        "image": "https://image.api.playstation.com/vulcan/ap/rnd/202212/0522/Dzry5RAwU9HsJGXZ3PUSYgCa.jpg",
+        "genre": ["Rol"],
+        "platform": ["PS4", "PS5", "PC", "XBOX"]
+    },
+    {
+        "name": "The Legend of Zelda: Tears of the Kingdom",
+        "description": "The Legend of Zelda: Tears of the Kingdom para Nintendo Switch, conocida en sus primeros años de desarrollo como la secuela de TLoZ: Breath of the Wild, nos lleva de vuelta a Hyrule en un momento de máxima tensión por culpa del renacimiento del malvado Ganondorf, que ha desatado su furia sobre los habitantes de este mundo de fantasía.",
+        "image": "https://i.3djuegos.com/juegos/16711/the_legend_of_zelda_breath_of_the_wild_2/fotos/ficha/the_legend_of_zelda_breath_of_the_wild_2-5803955.webp",
+        "genre": ["Acción", "Aventura"],
+        "platform": ["NINTENDO"]
+    },
+    {
+        "name": "One Piece Odyssey",
+        "description": "La exitosa y veterana saga One Piece se embarca en un nuevo juego de rol de corte japonés que se convierte en la producción más ambiciosa jamás realizada por Bandai Namco dentro de esta serie manganime.",
+        "image": "https://image.api.playstation.com/vulcan/ap/rnd/202209/1913/kNaKsiKF1T41mwl6Q1j6mMGH.png",
+        "genre": ["Rol"],
+        "platform": ["PS4", "PS5", "XBOX"]
+    },
+    {
+        "name": "Spider-Man",
+        "description": "Spiderman protagoniza este videojuego de acción desarrollado por Insomniac Games, los autores de Resistance y Ratchet & Clank entre otros, en exclusiva para PS4. La historia de esta aventura es totalmente original y nos pone en el rol de un Peter Parker experimentado y maduro que debe lidiar con los problemas que suponen el tener que salvar Manhattan de los peores criminales o villanos y compatibilizarlo con su vida personal.",
+        "image": "https://image.api.playstation.com/vulcan/img/rnd/202011/0714/vuF88yWPSnDfmFJVTyNJpVwW.png",
+        "genre": ["Acción", "Aventura"],
+        "platform": ["PS4", "PS5", "PC"]
+    },
+    {
+        "name": "Counter-Strike: Global Offensive",
+        "description": "Counter-Strike: Global Offensive es un videojuego de disparos en primera persona desarrollado por Valve Corporation y Hidden Path Entertainment. Es el cuarto juego de la saga Counter-Strike.",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3MtrUWjaPNfnKZ6vOHpSTG3AM4qDJan_mbA&usqp=CAU",
+        "genre": ["Disparos", "Competitivo multijugador"],
+        "platform": ["PS4", "PC", "XBOX"]
+    },
+    {
+        "name": "League of Legends",
+        "description": "Counter-Strike: Global Offensive es un videojuego de disparos en primera persona desarrollado por Valve Corporation y Hidden Path Entertainment. Es el cuarto juego de la saga Counter-Strike.",
+        "image": "https://www.mundodeportivo.com/alfabeta/hero/2020/11/Guia-completa-de-League-of-Legends-trucos-y-secretos.jpg?width=768&aspect_ratio=16:9&format=nowebp",
+        "genre": ["Competitivo multijugador"],
+        "platform": ["PC"]
+    },
+    {
+        "name": "World of Warcraft",
+        "description": "World of Warcraft es un videojuego de rol multijugador masivo en línea desarrollado por Blizzard Entertainment. Es el cuarto juego lanzado establecido en el universo fantástico de Warcraft, el cual fue introducido por primera vez por Warcraft: Orcs & Humans en 1994.​",
+        "image": "https://media.vandal.net/i/1200x630/3-2022/20223813522364_1.jpg",
+        "genre": ["Rol", "Competitivo multijugador"],
+        "platform": ["PC"]
+    },
+    {
+        "name": "NBA 2K23",
+        "description": "NBA 2K23 trae de vuelta el mejor baloncesto de 2K Sports, que durante dos décadas ha logrado establecerse como una pieza clave de la cultura del baloncesto al crear videojuegos de basket con una experiencia inmersiva en la palma de la mano de cada jugador.​",
+        "image": "https://blog.playstation.com/tachyon/2023/05/a662ba916cdcf34d035038cb97252b789d07acf8-scaled.jpg?fit=1024%2C1024",
+        "genre": ["Deportes"],
+        "platform": ["PS4", "PS5", "PC", "XBOX", "NINTENDO"]
+    },
+    {
+        "name": "Final Fantasy XV",
+        "description": "Final Fantasy XV es un videojuego del género ARPG desarrollado por Square Enix, para PlayStation 4, Xbox One y Microsoft Windows.​ Junto con Final Fantasy XIII, Final Fantasy XIII-2, Final Fantasy Type-0 y Lightning Returns: Final Fantasy XIII, forma parte del proyecto Fabula Nova Crystallis: Final Fantasy.​",
+        "image": "https://image.api.playstation.com/cdn/EP0082/CUSA01615_00/XNsomzrSk6U0TUWod52DBjupDX4SVy4E.png",
+        "genre": ["Rol", "Acción"],
+        "platform": ["PS4", "PC", "XBOX"]
     }
 ]

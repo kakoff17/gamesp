@@ -5,7 +5,7 @@ const gameSchema = new mongoose.Schema({
   description: String,
   image: String,
   genre: {
-    type: String,
+    type: [String],
     enum: [
       "Acción",
       "Estrategia",
@@ -15,8 +15,19 @@ const gameSchema = new mongoose.Schema({
       "Carreras",
       "Deportes",
       "Educación",
+      "Competitivo multijugador"
     ],
   },
+    platform: {
+      type: [String],
+      enum: [
+        "PS4",
+        "PS5",
+        "PC",
+        "XBOX",
+        "NINTENDO"
+      ]
+    }
 });
 
 const Game = mongoose.model("Game", gameSchema);
