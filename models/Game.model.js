@@ -27,6 +27,9 @@ const gameSchema = new mongoose.Schema({
         "XBOX",
         "NINTENDO"
       ]
+    },
+    gameplay: {
+      type: String
     }
 });
 
