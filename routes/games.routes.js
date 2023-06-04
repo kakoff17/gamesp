@@ -33,14 +33,13 @@ router.get("/:gameId", async (req, res, next) => {
 
 })
 
-// POST "/api/games/:gameId" => Crea un comentario en el juego
-router.post("/:gameId", isAuthenticated, async (req, res, next) => {
+// POST "/api/games/:gameId/comment" => Crea un comentario en el juego
+router.post("/:gameId/comment", isAuthenticated, async (req, res, next) => {
     const userId = req.payload._id
     try{
         const {content} = req.body;
         const gameParams = await Game.findById(req.params.gameId)
-        console.log()
-        await Comment.create({            
+    await Comment.create({            
             content,
             game: gameParams._id,
             author: userId,
@@ -61,6 +60,7 @@ router.delete("/:gameId", isAdmin, async (req, res, next) => {
         next(error)
     }
 })
+
 
 module.exports = router
 

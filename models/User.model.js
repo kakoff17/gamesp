@@ -8,6 +8,7 @@ const userSchema = new Schema(
       trim: true,
       required: true,
       unique: true,
+      lowercase: true
     },
     email: {
       type: String,
@@ -24,7 +25,7 @@ const userSchema = new Schema(
       type: String 
     },
     role: {
-      type: String,
+      type: [String],
       enum: ["user", "admin"], // los unicos posibles valores
       default: "user"
     },
