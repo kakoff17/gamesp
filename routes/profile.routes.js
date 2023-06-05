@@ -1,13 +1,12 @@
 const router = require("express").Router();
 const User = require("../models/User.model");
-const isAuthenticated = require("../middlewares/isAuthenticated");
+const { isAuthenticated } = require("../middleware/isLogin.js");
 const jwt = require("jsonwebtoken");
 const bcrypt = require("bcryptjs");
 
 // GET "/api/profile" => Show the profile
 router.get("/", isAuthenticated, async (req, res, next) => {
   const userId = req.payload._id;
-
   try {
     const profile = await User.findById(userId);
     res.json(profile);
@@ -16,31 +15,51 @@ router.get("/", isAuthenticated, async (req, res, next) => {
   }
 });
 
-// PUT "/api/profile/edit" => edita los datos de un usuario
+// PUT "/profile/:userId/edit" edit the user profile
+
 router.put("/edit", isAuthenticated, async (req, res, next) => {
   const userId = req.payload._id;
+  const { username, email, password } = req.body;
   try {
-    const { username, email, newPassword, lastPassword, image } = req.body;
-    const profile = await User.findById(userId);
-    // Verifica las contraseñas
-    const verifyPassword = await bcrypt.compare(lastPassword, profile.password);
-    if (!verifyPassword) {
-      res.status(400).json({ errorMesage: "Las contraseñas no coinciden" });
+    const emailValid = await emailValidation(email);
+    const passValid = await passValidation(password);
+    if (!emailValid.valid) {
+      res.status(400).json({ errorMessage: emailValid.errorMessage });
       return;
-    }    
-    const salt = await bcrypt.genSalt(10);
-    const hashedPassword = await bcrypt.hash(newPassword, salt);
-
-    // Actualiza el perfil de usuario
-    await User.findByIdAndUpdate(userId, {
-      username,
-      password: hashedPassword,
-      email,
-      image,
-    });
-    res.json("Usuario actualizado");
-  } catch (error) {
-    next(error);
+    }
+    if (!passValid.valid) {
+      res.status(400).json({ errorMessage: passValid.errorMessage });
+      return;
+    }
+    // we verify if user is registered with this email,pass or user
+    const foundUsername = await User.findOne({ username });
+    const foundMail = await User.findOne({ email });
+    if (foundUsername !== null && foundUsername._id.toString() !== userId) {
+      res
+        .status(500)
+        .json({ errorMessage: "El usuario ya existe, prueba con otro nombre" });
+      return;
+    }
+    if (foundMail !== null && foundMail._id.toString() !== userId) {
+      res.status(500).json({
+        errorMessage: "El correo electronico ya existe, prueba con otro correo",
+      });
+      return;
+    }
+    const salt = await bcrypt.genSalt(12);
+    const encryptedPassword = await bcrypt.hash(password, salt);
+    await User.findByIdAndUpdate(
+      userId,
+      {
+        username,
+        email,
+        password: encryptedPassword,
+      },
+      { new: true }
+    );
+    res.json("Usuario actualizado!");
+  } catch (err) {
+    next(err);
   }
 });
 

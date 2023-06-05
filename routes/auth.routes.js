@@ -93,7 +93,9 @@ router.post("/login", async (req, res, next) => {
 
     const payload = {
       _id: foundUser._id,
+      username: foundUser.username,
       email: foundUser.email,
+      role: foundUser.role
     };
 
     // Crear token para enviarselo al cliente

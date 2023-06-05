@@ -10,7 +10,7 @@
     {
         "name": "Diablo IV",
         "description": "Diablo 4 trae de vuelta la saga de rol y acción nº1 de Blizzard desafiándonos a acabar con incontables males, dominar un sinfín de facultades, superar mazmorras de pesadilla y coleccionar botín legendario.",
-        "image": "https://image.api.playstation.com/vulcan/ap/rnd/202212/0522/Dzry5RAwU9HsJGXZ3PUSYgCa.jpg",
+        "image": "https://image.api.playstation.com/vulcan/ap/rnd/202212/0522/B9YuXUOWOVixhpLYgGAZX9BU.jpg",
         "genre": ["Rol"],
         "platform": ["PS4", "PS5", "PC", "XBOX"],
         "gameplay": "https://www.youtube.com/watch?v=QY81EtzfD9o"
@@ -18,7 +18,7 @@
     {
         "name": "The Legend of Zelda: Tears of the Kingdom",
         "description": "The Legend of Zelda: Tears of the Kingdom para Nintendo Switch, conocida en sus primeros años de desarrollo como la secuela de TLoZ: Breath of the Wild, nos lleva de vuelta a Hyrule en un momento de máxima tensión por culpa del renacimiento del malvado Ganondorf, que ha desatado su furia sobre los habitantes de este mundo de fantasía.",
-        "image": "https://i.3djuegos.com/juegos/16711/the_legend_of_zelda_breath_of_the_wild_2/fotos/ficha/the_legend_of_zelda_breath_of_the_wild_2-5803955.webp",
+        "image": "https://fs-prod-cdn.nintendo-europe.com/media/images/10_share_images/games_15/nintendo_switch_4/2x1_NSwitch_TloZTearsOfTheKingdom_Gamepage.jpg",
         "genre": ["Acción", "Aventura"],
         "platform": ["NINTENDO"],
         "gameplay": "https://www.youtube.com/watch?v=QJSy4UpYWr4"
@@ -26,7 +26,7 @@
     {
         "name": "One Piece Odyssey",
         "description": "La exitosa y veterana saga One Piece se embarca en un nuevo juego de rol de corte japonés que se convierte en la producción más ambiciosa jamás realizada por Bandai Namco dentro de esta serie manganime.",
-        "image": "https://image.api.playstation.com/vulcan/ap/rnd/202209/1913/kNaKsiKF1T41mwl6Q1j6mMGH.png",
+        "image": "https://i.ytimg.com/vi/UO6WRympino/maxresdefault.jpg",
         "genre": ["Rol"],
         "platform": ["PS4", "PS5", "XBOX"],
         "gameplay": "https://www.youtube.com/watch?v=Wb2oj25i2_s"
@@ -34,7 +34,7 @@
     {
         "name": "Spider-Man",
         "description": "Spiderman protagoniza este videojuego de acción desarrollado por Insomniac Games, los autores de Resistance y Ratchet & Clank entre otros, en exclusiva para PS4. La historia de esta aventura es totalmente original y nos pone en el rol de un Peter Parker experimentado y maduro que debe lidiar con los problemas que suponen el tener que salvar Manhattan de los peores criminales o villanos y compatibilizarlo con su vida personal.",
-        "image": "https://image.api.playstation.com/vulcan/img/rnd/202011/0714/vuF88yWPSnDfmFJVTyNJpVwW.png",
+        "image": "https://img.youtube.com/vi/LTqczRnNqDc/maxresdefault.jpg",
         "genre": ["Acción", "Aventura"],
         "platform": ["PS4", "PS5", "PC"],
         "gameplay": "https://www.youtube.com/watch?v=Qo0ASfp3IMA"
@@ -62,7 +62,7 @@
         "image": "https://media.vandal.net/i/1200x630/3-2022/20223813522364_1.jpg",
         "genre": ["Rol", "Competitivo multijugador"],
         "platform": ["PC"],
-        "gameplay": "https://www.youtube.com/watch?v=wmv74lyi5KA"
+        "gameplay": "https://www.youtube.com/embed/wmv74lyi5KA"
     },
     {
         "name": "NBA 2K23",
