@@ -65,18 +65,14 @@ router.post("/login", async (req, res, next) => {
 
   // Comprobacion de no haber emptyString
   if (email === "" || password === "") {
-    res
-      .status(400)
-      .json({ message: "Debe proporcionar un usuario y una contraseña" });
+    res.status(400).json({ errorMessage: "Debe proporcionar un usuario y una contraseña" });
     return;
   }
 
   try {
     const foundUser = await User.findOne({ email: email });
     if (!foundUser) {
-      res
-        .status(401)
-        .json({ message: "Usuario no encontrado con esa dirección email." });
+      res.status(400).json({ errorMessage: "Usuario no encontrado con esa dirección email." });
       return;
     }
 
@@ -87,7 +83,7 @@ router.post("/login", async (req, res, next) => {
     );
 
     if (!isPasswordCorrect) {
-      res.status(401).json({ message: "Contraseña no válida." });
+      res.status(400).json({ errorMessage: "Contraseña no válida." });
       return;
     }
 
@@ -95,7 +91,7 @@ router.post("/login", async (req, res, next) => {
       _id: foundUser._id,
       username: foundUser.username,
       email: foundUser.email,
-      role: foundUser.role
+      role: foundUser.role,
     };
 
     // Crear token para enviarselo al cliente
@@ -104,7 +100,6 @@ router.post("/login", async (req, res, next) => {
       expiresIn: "10d",
     });
     res.json({ authToken: authToken });
-    
   } catch (error) {
     next(error);
   }
@@ -114,8 +109,7 @@ router.post("/login", async (req, res, next) => {
 router.get("/verify", isAuthenticated, (req, res, next) => {
   console.log(req.payload);
 
-  res.json({payload: req.payload})
-
+  res.json({ payload: req.payload });
 });
 
 module.exports = router;

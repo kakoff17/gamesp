@@ -15,7 +15,7 @@ router.get("/", isAuthenticated, async (req, res, next) => {
   }
 });
 
-// PUT "/profile/:userId/edit" edit the user profile
+// PUT "/profile/:userId/edit" Edits the profile of the user logged
 
 router.put("/edit", isAuthenticated, async (req, res, next) => {
   const userId = req.payload._id;
@@ -57,7 +57,7 @@ router.put("/edit", isAuthenticated, async (req, res, next) => {
       },
       { new: true }
     );
-    res.json("Usuario actualizado!");
+    res.json("Usuario actualizado");
   } catch (err) {
     next(err);
   }
