@@ -45,21 +45,33 @@ router.get("/:gameId", async (req, res, next) => {
   const { gameId } = req.params;
 
   try {
-    const response = await Game.findById(gameId);
-    const allComments = await Comment.find({gameId: gameId})
+    const response = await Game.findById(gameId);    
+    //console.log(response)    
     const gameData = {
-      game: response,
-      comment: allComments,
+      game: response,      
     };
-    //console.log(allComments)
+    
     res.json(gameData);
   } catch (error) {
     next(error);
   }
 });
 
+// GET "/api/games/:gameId/comment"
+router.get("/:gameId/comment", async (req, res, next) => {
+  const {gameId} = req.params;
+
+  try{
+    const allComments = await Comment.find({game: gameId}).populate("author")
+    res.json(allComments)
+
+  }catch (error){
+    next(error)
+  }
+})
+
 // DELETE "/api/games/:gameId" => Elimina un juego //! SOLO ADMINS
-router.delete("/:gameId", isAuthenticated, async (req, res, next) => {
+router.delete("/:gameId/delete", isAuthenticated, async (req, res, next) => {
   try {
     const gameId = req.params.gameId;
     await Game.findByIdAndDelete(gameId);
@@ -77,18 +89,51 @@ router.put("/:gameId/edit", isAuthenticated, async (req, res, next) => {
 
   try {
     await Game.findByIdAndUpdate(gameId, {
-      name,
-      description,
-      image,
-      genre,
-      platform,
-      gameplay,
+      name: name,
+      description: description,
+      image: image,
+      genre: genre,
+      platform: platform,
+      gameplay: gameplay,
     });
     res.json("Juego actualizado");
   } catch (error) {
     next(error);
   }
 });
+
+// POST "/games/:gameId/comment" => Crea un nuevo comentario del juego
+
+router.post("/:gameId/comment", isAuthenticated, async (req, res, next) => {
+  const userId = req.payload._id;
+  const { content } = req.body;
+  const { gameId } = req.params;
+  try {
+    const gameParams = await Game.findById(gameId);
+    await Comment.create({
+      content,
+      game: gameParams._id,
+      author: userId,
+    });
+    res.json("comentario creado");
+  } catch (err) {
+    next(err);
+  }
+});
+
+// DELETE "/games/:gameId/comment/:commId" => Elimina el comentario del juego
+router.delete("/:gameId/comment/:commId", isAuthenticated, async (req, res, next) => {
+    const userId = req.payload._id;
+    const {commId} = req.params;
+    try {
+      // todo condicional que no cualquier pueda borrar un comentario.
+      await Comment.findByIdAndDelete(commId);
+      res.json({ message: "Comentario eliminado" });
+    }catch (err) {
+      next(err);
+    }
+  }
+);
 
 // * RUTAS DE FAVORITOS
 // todo
