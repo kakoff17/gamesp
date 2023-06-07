@@ -54,7 +54,6 @@
         "genre": ["Competitivo multijugador"],
         "platform": ["PC"],
         "gameplay": "https://www.youtube.com/watch?v=mUAbaBYm5C0"
-
     },
     {
         "name": "World of Warcraft",
@@ -76,9 +75,17 @@
     {
         "name": "Final Fantasy XV",
         "description": "Final Fantasy XV es un videojuego del género ARPG desarrollado por Square Enix, para PlayStation 4, Xbox One y Microsoft Windows.​ Junto con Final Fantasy XIII, Final Fantasy XIII-2, Final Fantasy Type-0 y Lightning Returns: Final Fantasy XIII, forma parte del proyecto Fabula Nova Crystallis: Final Fantasy.​",
-        "image": "https://image.api.playstation.com/cdn/EP0082/CUSA01615_00/XNsomzrSk6U0TUWod52DBjupDX4SVy4E.png",
+        "image": "https://areajugones.sport.es/wp-content/uploads/2022/05/final-fantasy-xv-1080x609.jpg",
         "genre": ["Rol", "Acción"],
         "platform": ["PS4", "PC", "XBOX"],
         "gameplay": "https://www.youtube.com/watch?v=85KvfV7kRwQ&list=PLQ2-ZHxVR7-EmvaNKSuCf9QDqGS5tFSAw"        
+    },
+    {
+        "name": "Resident Evil 4",
+        "description": "Resident Evil 4 es un remake del Resident Evil 4 original del 2005. Survival Horror de última generación reimaginado para el año 2023.​",
+        "image": "https://gaming-cdn.com/images/products/6772/orig/resident-evil-4-pc-juego-steam-europe-cover.jpg?v=1684153325",
+        "genre": ["Aventura", "Acción"],
+        "platform": ["PS4","PS5", "PC", "XBOX"],
+        "gameplay": "https://www.youtube.com/watch?v=vQR8AB-JKpI"
     }
 ]

@@ -30,7 +30,7 @@ const gameSchema = new mongoose.Schema({
     },
     gameplay: {
       type: String
-    }
+    },    
 });
 
 const Game = mongoose.model("Game", gameSchema);

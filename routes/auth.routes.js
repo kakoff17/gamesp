@@ -92,6 +92,7 @@ router.post("/login", async (req, res, next) => {
       username: foundUser.username,
       email: foundUser.email,
       role: foundUser.role,
+      favGame: foundUser.favGame
     };
 
     // Crear token para enviarselo al cliente
@@ -107,8 +108,7 @@ router.post("/login", async (req, res, next) => {
 
 // GET  /auth/verify  -  Comprobar en el frontend que el usuario esté validado
 router.get("/verify", isAuthenticated, (req, res, next) => {
-  console.log(req.payload);
-
+  //console.log(req.payload);
   res.json({ payload: req.payload });
 });
 
