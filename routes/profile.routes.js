@@ -1,6 +1,6 @@
 const router = require("express").Router();
 const User = require("../models/User.model");
-const { isAuthenticated } = require("../middleware/isLogin.js");
+const { isAuthenticated } = require("../middleware/isAuthenticated.js");
 const jwt = require("jsonwebtoken");
 const bcrypt = require("bcryptjs");
 const {emailValidation, passValidation }= require("../utils/verification")

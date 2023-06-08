@@ -4,7 +4,7 @@ const User = require("../models/User.model");
 const bcrypt = require("bcryptjs");
 const jwt = require("jsonwebtoken");
 
-const { isAuthenticated } = require("../middleware/isLogin.js");
+const { isAuthenticated } = require("../middleware/isAuthenticated.js");
 
 // POST /auth/signup  - Crea un nuevo usuario
 router.post("/signup", async (req, res, next) => {
