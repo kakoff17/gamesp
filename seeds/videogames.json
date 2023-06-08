@@ -230,5 +230,102 @@
     "genre": ["Estrategia"],
     "platform": ["PC"],
     "gameplay": "https://www.youtube.com/watch?v=oGGchJop5yo"
+  },
+  {
+    "name": "Far Cry 5",
+    "description": "Far Cry 5 es un videojuego de acción y disparos en primera persona con una jugabilidad de tipo mundo abierto, que ha sido desarrollado, producido y distribuído por Ubisoft para las plataformas de PC, PS4 y Xbox One. Se trata de la quinta entrega de la famosa saga de videojuegos Far Cry.​",
+    "image": "https://gaming-cdn.com/images/products/1842/616x353/far-cry-5-pc-juego-ubisoft-connect-europe-cover.jpg?v=1648470493",
+    "genre": ["Acción", "Disparos"],
+    "platform": ["PC", "PS4", "XBOX"],
+    "gameplay": "https://www.youtube.com/watch?v=CdEGS39jMP0"
+  },
+  {
+    "name": "Minecraft",
+    "description": "Minecraft es un videojuego de construcción de tipo «mundo abierto» o sandbox creado originalmente por el sueco Markus Persson​ y posteriormente desarrollado por Mojang Studios (actualmente parte de Microsoft) Fue lanzado el 17 de mayo de 2009, y después de numerosos cambios, su primera versión estable «1.0» fue publicada el 18 de noviembre de 2011.​",
+    "image": "https://fs-prod-cdn.nintendo-europe.com/media/images/10_share_images/games_15/nintendo_switch_4/H2x1_NSwitch_Minecraft_image1600w.jpg",
+    "genre": ["Acción", "Competitivo multijugador", "Rol"],
+    "platform": ["PC", "PS4", "XBOX", "NINTENDO"],
+    "gameplay": "https://www.youtube.com/watch?v=TNatxa_7a54"
+  },
+  {
+    "name": "Cuphead",
+    "description": "Cuphead es un juego de acción clásico de correr y disparar centrado especialmente en batallas con jefes. Inspirado en los dibujos animados de la década de 1930, los aspectos visuales y sonoros se han creado meticulosamente con las mismas técnicas de la época (es decir, animación tradicional en transparencias dibujadas a mano, fondos de acuarela y grabaciones de jazz originales).​",
+    "image": "https://fs-prod-cdn.nintendo-europe.com/media/images/10_share_images/games_15/nintendo_switch_download_software_1/H2x1_NSwitchDS_Cuphead_image1600w.jpg",
+    "genre": ["Acción"],
+    "platform": ["PC", "PS4", "XBOX", "NINTENDO"],
+    "gameplay": "https://www.youtube.com/watch?v=Xq3F_IW8tvM"
+  },
+  {
+    "name": "Dofus",
+    "description": "Cuphead es un juego de acción clásico de correr y disparar centrado especialmente en batallas con jefes. Inspirado en los dibujos animados de la década de 1930, los aspectos visuales y sonoros se han creado meticulosamente con las mismas técnicas de la época (es decir, animación tradicional en transparencias dibujadas a mano, fondos de acuarela y grabaciones de jazz originales).​",
+    "image": "https://top-mmorpg.fr/wp-content/uploads/2017/06/Dofus-MMORPG-Gratuit-1024x768.jpg",
+    "genre": ["Competitivo multijugador", "Rol", "Aventura"],
+    "platform": ["PC"],
+    "gameplay": "https://www.youtube.com/watch?v=wx9YJ49IdgA"
+  },
+  {
+    "name": "Fall Guys: Ultimate Knockout",
+    "description": "Fall Guys es un videojuego de plataformas y battle royale gratuito desarrollado por Mediatonic. En el videojuego participan hasta 60 jugadores que controlan criaturas parecidas a gominolas y compiten entre sí en una serie de minijuegos seleccionados al azar, como carreras de obstáculos o fútbol en equipo.​",
+    "image": "https://i.ytimg.com/vi/FcITAzKW3fY/maxresdefault.jpg",
+    "genre": ["Competitivo multijugador", "Acción", "Deportes", "Competitivo multijugador"],
+    "platform": ["PC", "XBOX", "NINTENDO", "PS4"],
+    "gameplay": "https://www.youtube.com/watch?v=pgvXoANnwGU"
+  },
+  {
+    "name": "Rayman Legends",
+    "description": "Rayman Legends es la adaptación a PlayStation 4 del último juego de Rayman, que de nuevo nos lleva a un mundo en dos dimensiones y jugabilidad clásica en el que hasta cuatro jugadores podrán colaborar para superar los niveles. Difíciles retos, gráficos coloristas, diversión y mucho humor en uno de los mejores juegos de plataformas de la década.​",
+    "image": "https://fs-prod-cdn.nintendo-europe.com/media/images/10_share_images/games_15/nintendo_switch_4/H2x1_NSwitch_RaymanLegendsDefinitiveEdition_image1600w.jpg",
+    "genre": ["Aventura"],
+    "platform": ["PC", "XBOX", "NINTENDO", "PS4"],
+    "gameplay": "https://www.youtube.com/watch?v=8x4clQq2hXw"
+  },
+  {
+    "name": "Star Wars: Knights of the Old Republic II – The Sith Lords",
+    "description": "Star Wars Knights of the Old Republic II: The Sith Lords es un juego de rol desarrollado por Obsidian Entertainment y publicado por LucasArts. Es una secuela de Star Wars: Caballeros de la Antigua República de BioWare y su lanzamiento para Xbox fue el 6 de diciembre de 2004, para Microsoft Windows el 8 de febrero de 2005 y para los sistemas de OS X y Linux 21 de julio de 2015. Como su predecesor, el juego está ambientado en el universo de Star Wars, 4000 años antes de los eventos que ocurren en la película Star Wars: Episode I - The Phantom Menace que está basando en el Sistema d20 y fue desarrollado por Wizards of the Coast.​",
+    "image": "https://fs-prod-cdn.nintendo-europe.com/media/images/10_share_images/games_15/nintendo_switch_download_software_1/2x1_NSwitchDS_STARWARSKnightsOfTheOldRepublicIITheSithLords_image1600w.jpg",
+    "genre": ["Aventura", "Disparos"],
+    "platform": ["PC", "XBOX", "NINTENDO"],
+    "gameplay": "https://www.youtube.com/watch?v=HvWsdOMk_Kw"
+  },
+  {
+    "name": "NieR:Automata",
+    "description": "NieR:Automata es un videojuego de rol de acción desarrollado por PlatinumGames y publicado por Square Enix para PlayStation 4, Microsoft Windows y Xbox One, así como para Nintendo Switch. Aunque en un principio la distribuidora planeó su lanzamiento para noviembre de 2016, finalmente lo publicó el 23 de febrero de 2017 en Japón.​",
+    "image": "https://fs-prod-cdn.nintendo-europe.com/media/images/10_share_images/games_15/nintendo_switch_4/2x1_NSwitch_NierAutomataTheEndOfYorhaEdition_image1600w.jpg",
+    "genre": ["Acción", "Rol"],
+    "platform": ["PC", "PS4", "XBOX", "NINTENDO"],
+    "gameplay": "https://www.youtube.com/watch?v=P-S_BzaXZQY"
+  },
+  {
+    "name": "The Sims 4",
+    "description": "¡Los Sims 4 se puede descargar gratis! Da rienda suelta a tu imaginación y crea un mundo único de Sims a tu imagen y semejanza. Elige el aspecto, la personalidad y la ropa de tus Sims, y gestiona los altibajos de su vida cotidiana.​",
+    "image": "https://i.blogs.es/44026f/los-sims-4-pc-mac-juego-origin-cover/1366_2000.jpeg",
+    "genre": ["Estrategia", "Rol"],
+    "platform": ["PC", "PS4", "XBOX"],
+    "gameplay": "https://www.youtube.com/watch?v=Pg3-GW3ovWE"
+  },
+  {
+    "name": "Formula 1 (2022)",
+    "description": "¡Los Sims 4 se puede descargar gratis! Da rienda suelta a tu imaginación y crea un mundo único de Sims a tu imagen y semejanza. Elige el aspecto, la personalidad y la ropa de tus Sims, y gestiona los altibajos de su vida cotidiana.​",
+    "image": "https://media.vandal.net/i/1280x720/3-2022/20223312225716_1.jpg.webp",
+    "genre": ["Deportes", "Carreras"],
+    "platform": ["PC", "PS5", "PS4", "XBOX"],
+    "gameplay": "https://www.youtube.com/watch?v=4aYRFWLtApc"
+  },
+  {
+    "name": "DiRT Showdown",
+    "description": "Dirt: Showdown es un videojuego de carreras publicado y desarrollado por Codemasters para Windows, OS X, Xbox 360 y PlayStation 3, además de una versión para Linux/SteamOS desarrollada por Virtual Programming. Fue puesto en línea el 25 de mayo de 2012 en Europa y el 12 de junio en América del Norte.​",
+    "image": "https://i.ytimg.com/vi/t3CrqYns8pY/maxresdefault.jpg",
+    "genre": ["Carreras"],
+    "platform": ["PC", "PS4", "XBOX"],
+    "gameplay": "https://www.youtube.com/watch?v=_8qrZtsIHD0"
+  },
+  {
+    "name": "Age of Empires III",
+    "description": "Age of Empires III es un videojuego de estrategia en tiempo real para computadoras personales desarrollado por Ensemble Studios (propiedad de la corporación Microsoft) publicado por Microsoft Games para los sistemas operativos Windows y Mac.​ Glu Mobile desarrolló una versión para NGage en 2009. Es el tercer juego de la saga Age of Empires; secuela directa del Age of empires II: The Age of Kings.​",
+    "image": "https://cdn.hobbyconsolas.com/sites/navi.axelspringer.es/public/media/image/2020/09/age-empires-3-edicion-definitiva-2081991.jpg",
+    "genre": ["Estrategia"],
+    "platform": ["PC"],
+    "gameplay": "https://www.youtube.com/watch?v=qS7rJ1RyfBI"
   }
 ]
+
