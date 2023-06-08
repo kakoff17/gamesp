@@ -29,10 +29,10 @@ const userSchema = new Schema(
       enum: ["user", "admin"], // los unicos posibles valores
       default: "user"
     },
-    favGame: {
+    favGame: [{
       type: Schema.Types.ObjectId,
       ref: "Game"
-    },
+    }],
   },
   {
     // this second object adds extra properties: `createdAt` and `updatedAt`

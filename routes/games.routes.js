@@ -2,7 +2,7 @@ const express = require("express");
 const router = express.Router();
 
 const { isAuthenticated } = require("../middleware/isAuthenticated.js");
-const { isAdmin } = require("../middleware/isAdmin.js")
+const { isAdmin } = require("../middleware/isAdmin.js");
 const Comment = require("../models/Comment.model");
 const Game = require("../models/Game.model");
 const User = require("../models/User.model.js");
@@ -21,11 +21,9 @@ router.get("/", async (req, res, next) => {
 
 // POST "/api/games/create" =>  Crea un juego en la BD con información del FE //! SOLO ADMINS
 
-router.post("/create", isAuthenticated, isAdmin,  async (req, res, next) => {
-  const { name, description, image, genre, platform, gameplay } =
-    req.body; 
-  try {  
-
+router.post("/create", isAuthenticated, isAdmin, async (req, res, next) => {
+  const { name, description, image, genre, platform, gameplay } = req.body;
+  try {
     await Game.create({
       name,
       description,
@@ -45,12 +43,12 @@ router.get("/:gameId", async (req, res, next) => {
   const { gameId } = req.params;
 
   try {
-    const response = await Game.findById(gameId);    
-    //console.log(response)    
+    const response = await Game.findById(gameId);
+    //console.log(response)
     const gameData = {
-      game: response,      
+      game: response,
     };
-    
+
     res.json(gameData);
   } catch (error) {
     next(error);
@@ -58,49 +56,58 @@ router.get("/:gameId", async (req, res, next) => {
 });
 
 // DELETE "/api/games/:gameId" => Elimina un juego //! SOLO ADMINS
-router.delete("/:gameId/delete", isAuthenticated, isAdmin,  async (req, res, next) => {
-  try {
-    const gameId = req.params.gameId;
-    await Game.findByIdAndDelete(gameId);
-    res.json("Juego eliminado");
-  } catch (error) {
-    next(error);
+router.delete(
+  "/:gameId/delete",
+  isAuthenticated,
+  isAdmin,
+  async (req, res, next) => {
+    try {
+      const gameId = req.params.gameId;
+      await Game.findByIdAndDelete(gameId);
+      res.json("Juego eliminado");
+    } catch (error) {
+      next(error);
+    }
   }
-});
+);
 
 // PUT "/api/games/:gameId" => Edita un juego //! SOLO ADMINS
 
-router.put("/:gameId/edit", isAuthenticated, isAdmin,  async (req, res, next) => {
+router.put(
+  "/:gameId/edit",
+  isAuthenticated,
+  isAdmin,
+  async (req, res, next) => {
+    const { gameId } = req.params;
+    const { name, description, image, genre, platform, gameplay } = req.body;
+
+    try {
+      await Game.findByIdAndUpdate(gameId, {
+        name: name,
+        description: description,
+        image: image,
+        genre: genre,
+        platform: platform,
+        gameplay: gameplay,
+      });
+      res.json("Juego actualizado");
+    } catch (error) {
+      next(error);
+    }
+  }
+);
+
+// GET "/api/games/:gameId/comment"
+router.get("/:gameId/comment", async (req, res, next) => {
   const { gameId } = req.params;
-  const { name, description, image, genre, platform, gameplay } = req.body;  
 
   try {
-    await Game.findByIdAndUpdate(gameId, {
-      name: name,
-      description: description,
-      image: image,
-      genre: genre,
-      platform: platform,
-      gameplay: gameplay,
-    });
-    res.json("Juego actualizado");
+    const allComments = await Comment.find({ game: gameId }).populate("author");
+    res.json(allComments);
   } catch (error) {
     next(error);
   }
 });
-
-// GET "/api/games/:gameId/comment"
-router.get("/:gameId/comment", async (req, res, next) => {
-  const {gameId} = req.params;
-
-  try{
-    const allComments = await Comment.find({game: gameId}).populate("author")
-    res.json(allComments)
-
-  }catch (error){
-    next(error)
-  }
-})
 
 // POST "/games/:gameId/comment" => Crea un nuevo comentario del juego
 
@@ -122,14 +129,17 @@ router.post("/:gameId/comment", isAuthenticated, async (req, res, next) => {
 });
 
 // DELETE "/games/:gameId/comment/:commId" => Elimina el comentario del juego
-router.delete("/:gameId/comment/:commId", isAuthenticated, async (req, res, next) => {
+router.delete(
+  "/:gameId/comment/:commId",
+  isAuthenticated,
+  async (req, res, next) => {
     const userId = req.payload._id;
-    const {commId} = req.params;
+    const { commId } = req.params;
     try {
       // todo condicional que no cualquier pueda borrar un comentario.
       await Comment.findByIdAndDelete(commId);
       res.json({ message: "Comentario eliminado" });
-    }catch (err) {
+    } catch (err) {
       next(err);
     }
   }
@@ -140,9 +150,9 @@ router.delete("/:gameId/comment/:commId", isAuthenticated, async (req, res, next
 
 // POST "/api/games/:gameId/fav" => añade juego como favorito del usuario
 
-router.post("/:gameId/favourite", isAuthenticated, async (req, res, next) => {
+router.post("/:gameId/fav", isAuthenticated, async (req, res, next) => {
   const { gameId } = req.params;
-
+  //console.log(gameId);
   try {
     await User.findByIdAndUpdate(
       req.payload._id,
@@ -171,6 +181,5 @@ router.delete("/:gameId/fav/delete", isAuthenticated, async (req, res, next) => 
     }
   }
 );
-
 
 module.exports = router;

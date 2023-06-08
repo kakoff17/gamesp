@@ -1,91 +1,234 @@
 [
-    {
-        "name": "FIFA 23",
-        "description": "FIFA 23 es un simulador de fútbol de EA Sports, el último bajo esta denominación, que busca ofrecer al usuario el mejor videojuego de fútbol de la historia con más características, modos de juego, contenido del Mundial, clubes, ligas, competiciones y jugadores. Desde la firma norteamericana apuestan por llevar el juego del mundo al campo, con la tecnología HyperMotion2 que ofrece una experiencia de juego aún más realista, tanto la Copa del Mundo masculina como la femenina, que llegarán al juego más adelante en forma de actualización, la incorporación de equipos femeninos, funciones de juego cruzado, y mucho más.",
-        "image": "https://www.lavanguardia.com/files/article_main_microformat/uploads/2022/09/28/633374d106b46.jpeg",
-        "genre": ["Deportes"],
-        "platform": ["PS4", "PS5", "PC", "XBOX"],
-        "gameplay": "https://www.youtube.com/watch?v=ym16wCCsVaI"
-    }, 
-    {
-        "name": "Diablo IV",
-        "description": "Diablo 4 trae de vuelta la saga de rol y acción nº1 de Blizzard desafiándonos a acabar con incontables males, dominar un sinfín de facultades, superar mazmorras de pesadilla y coleccionar botín legendario.",
-        "image": "https://image.api.playstation.com/vulcan/ap/rnd/202212/0522/B9YuXUOWOVixhpLYgGAZX9BU.jpg",
-        "genre": ["Rol"],
-        "platform": ["PS4", "PS5", "PC", "XBOX"],
-        "gameplay": "https://www.youtube.com/watch?v=QY81EtzfD9o"
-    },
-    {
-        "name": "The Legend of Zelda: Tears of the Kingdom",
-        "description": "The Legend of Zelda: Tears of the Kingdom para Nintendo Switch, conocida en sus primeros años de desarrollo como la secuela de TLoZ: Breath of the Wild, nos lleva de vuelta a Hyrule en un momento de máxima tensión por culpa del renacimiento del malvado Ganondorf, que ha desatado su furia sobre los habitantes de este mundo de fantasía.",
-        "image": "https://fs-prod-cdn.nintendo-europe.com/media/images/10_share_images/games_15/nintendo_switch_4/2x1_NSwitch_TloZTearsOfTheKingdom_Gamepage.jpg",
-        "genre": ["Acción", "Aventura"],
-        "platform": ["NINTENDO"],
-        "gameplay": "https://www.youtube.com/watch?v=QJSy4UpYWr4"
-    },
-    {
-        "name": "One Piece Odyssey",
-        "description": "La exitosa y veterana saga One Piece se embarca en un nuevo juego de rol de corte japonés que se convierte en la producción más ambiciosa jamás realizada por Bandai Namco dentro de esta serie manganime.",
-        "image": "https://i.ytimg.com/vi/UO6WRympino/maxresdefault.jpg",
-        "genre": ["Rol"],
-        "platform": ["PS4", "PS5", "XBOX"],
-        "gameplay": "https://www.youtube.com/watch?v=Wb2oj25i2_s"
-    },
-    {
-        "name": "Spider-Man",
-        "description": "Spiderman protagoniza este videojuego de acción desarrollado por Insomniac Games, los autores de Resistance y Ratchet & Clank entre otros, en exclusiva para PS4. La historia de esta aventura es totalmente original y nos pone en el rol de un Peter Parker experimentado y maduro que debe lidiar con los problemas que suponen el tener que salvar Manhattan de los peores criminales o villanos y compatibilizarlo con su vida personal.",
-        "image": "https://img.youtube.com/vi/LTqczRnNqDc/maxresdefault.jpg",
-        "genre": ["Acción", "Aventura"],
-        "platform": ["PS4", "PS5", "PC"],
-        "gameplay": "https://www.youtube.com/watch?v=Qo0ASfp3IMA"
-    },
-    {
-        "name": "Counter-Strike: Global Offensive",
-        "description": "Counter-Strike: Global Offensive es un videojuego de disparos en primera persona desarrollado por Valve Corporation y Hidden Path Entertainment. Es el cuarto juego de la saga Counter-Strike.",
-        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3MtrUWjaPNfnKZ6vOHpSTG3AM4qDJan_mbA&usqp=CAU",
-        "genre": ["Disparos", "Competitivo multijugador"],
-        "platform": ["PS4", "PC", "XBOX"],
-        "gameplay": "https://www.youtube.com/watch?v=v49U99Tw_b4"
-    },
-    {
-        "name": "League of Legends",
-        "description": "Counter-Strike: Global Offensive es un videojuego de disparos en primera persona desarrollado por Valve Corporation y Hidden Path Entertainment. Es el cuarto juego de la saga Counter-Strike.",
-        "image": "https://www.mundodeportivo.com/alfabeta/hero/2020/11/Guia-completa-de-League-of-Legends-trucos-y-secretos.jpg?width=768&aspect_ratio=16:9&format=nowebp",
-        "genre": ["Competitivo multijugador"],
-        "platform": ["PC"],
-        "gameplay": "https://www.youtube.com/watch?v=mUAbaBYm5C0"
-    },
-    {
-        "name": "World of Warcraft",
-        "description": "World of Warcraft es un videojuego de rol multijugador masivo en línea desarrollado por Blizzard Entertainment. Es el cuarto juego lanzado establecido en el universo fantástico de Warcraft, el cual fue introducido por primera vez por Warcraft: Orcs & Humans en 1994.​",
-        "image": "https://media.vandal.net/i/1200x630/3-2022/20223813522364_1.jpg",
-        "genre": ["Rol", "Competitivo multijugador"],
-        "platform": ["PC"],
-        "gameplay": "https://www.youtube.com/embed/wmv74lyi5KA"
-    },
-    {
-        "name": "NBA 2K23",
-        "description": "NBA 2K23 trae de vuelta el mejor baloncesto de 2K Sports, que durante dos décadas ha logrado establecerse como una pieza clave de la cultura del baloncesto al crear videojuegos de basket con una experiencia inmersiva en la palma de la mano de cada jugador.​",
-        "image": "https://blog.playstation.com/tachyon/2023/05/a662ba916cdcf34d035038cb97252b789d07acf8-scaled.jpg?fit=1024%2C1024",
-        "genre": ["Deportes"],
-        "platform": ["PS4", "PS5", "PC", "XBOX", "NINTENDO"],
-        "gameplay": "https://www.youtube.com/watch?v=GC3dZnJC4ds"
-
-    },
-    {
-        "name": "Final Fantasy XV",
-        "description": "Final Fantasy XV es un videojuego del género ARPG desarrollado por Square Enix, para PlayStation 4, Xbox One y Microsoft Windows.​ Junto con Final Fantasy XIII, Final Fantasy XIII-2, Final Fantasy Type-0 y Lightning Returns: Final Fantasy XIII, forma parte del proyecto Fabula Nova Crystallis: Final Fantasy.​",
-        "image": "https://areajugones.sport.es/wp-content/uploads/2022/05/final-fantasy-xv-1080x609.jpg",
-        "genre": ["Rol", "Acción"],
-        "platform": ["PS4", "PC", "XBOX"],
-        "gameplay": "https://www.youtube.com/watch?v=85KvfV7kRwQ&list=PLQ2-ZHxVR7-EmvaNKSuCf9QDqGS5tFSAw"        
-    },
-    {
-        "name": "Resident Evil 4",
-        "description": "Resident Evil 4 es un remake del Resident Evil 4 original del 2005. Survival Horror de última generación reimaginado para el año 2023.​",
-        "image": "https://gaming-cdn.com/images/products/6772/orig/resident-evil-4-pc-juego-steam-europe-cover.jpg?v=1684153325",
-        "genre": ["Aventura", "Acción"],
-        "platform": ["PS4","PS5", "PC", "XBOX"],
-        "gameplay": "https://www.youtube.com/watch?v=vQR8AB-JKpI"
-    }
+  {
+    "name": "FIFA 23",
+    "description": "FIFA 23 es un simulador de fútbol de EA Sports, el último bajo esta denominación, que busca ofrecer al usuario el mejor videojuego de fútbol de la historia con más características, modos de juego, contenido del Mundial, clubes, ligas, competiciones y jugadores. Desde la firma norteamericana apuestan por llevar el juego del mundo al campo, con la tecnología HyperMotion2 que ofrece una experiencia de juego aún más realista, tanto la Copa del Mundo masculina como la femenina, que llegarán al juego más adelante en forma de actualización, la incorporación de equipos femeninos, funciones de juego cruzado, y mucho más.",
+    "image": "https://www.lavanguardia.com/files/article_main_microformat/uploads/2022/09/28/633374d106b46.jpeg",
+    "genre": ["Deportes"],
+    "platform": ["PS4", "PS5", "PC", "XBOX"],
+    "gameplay": "https://www.youtube.com/watch?v=ym16wCCsVaI"
+  },
+  {
+    "name": "Diablo IV",
+    "description": "Diablo 4 trae de vuelta la saga de rol y acción nº1 de Blizzard desafiándonos a acabar con incontables males, dominar un sinfín de facultades, superar mazmorras de pesadilla y coleccionar botín legendario.",
+    "image": "https://image.api.playstation.com/vulcan/ap/rnd/202212/0522/B9YuXUOWOVixhpLYgGAZX9BU.jpg",
+    "genre": ["Rol"],
+    "platform": ["PS4", "PS5", "PC", "XBOX"],
+    "gameplay": "https://www.youtube.com/watch?v=QY81EtzfD9o"
+  },
+  {
+    "name": "The Legend of Zelda: Tears of the Kingdom",
+    "description": "The Legend of Zelda: Tears of the Kingdom para Nintendo Switch, conocida en sus primeros años de desarrollo como la secuela de TLoZ: Breath of the Wild, nos lleva de vuelta a Hyrule en un momento de máxima tensión por culpa del renacimiento del malvado Ganondorf, que ha desatado su furia sobre los habitantes de este mundo de fantasía.",
+    "image": "https://fs-prod-cdn.nintendo-europe.com/media/images/10_share_images/games_15/nintendo_switch_4/2x1_NSwitch_TloZTearsOfTheKingdom_Gamepage.jpg",
+    "genre": ["Acción", "Aventura"],
+    "platform": ["NINTENDO"],
+    "gameplay": "https://www.youtube.com/watch?v=QJSy4UpYWr4"
+  },
+  {
+    "name": "One Piece Odyssey",
+    "description": "La exitosa y veterana saga One Piece se embarca en un nuevo juego de rol de corte japonés que se convierte en la producción más ambiciosa jamás realizada por Bandai Namco dentro de esta serie manganime.",
+    "image": "https://i.ytimg.com/vi/UO6WRympino/maxresdefault.jpg",
+    "genre": ["Rol"],
+    "platform": ["PS4", "PS5", "XBOX"],
+    "gameplay": "https://www.youtube.com/watch?v=Wb2oj25i2_s"
+  },
+  {
+    "name": "Spider-Man",
+    "description": "Spiderman protagoniza este videojuego de acción desarrollado por Insomniac Games, los autores de Resistance y Ratchet & Clank entre otros, en exclusiva para PS4. La historia de esta aventura es totalmente original y nos pone en el rol de un Peter Parker experimentado y maduro que debe lidiar con los problemas que suponen el tener que salvar Manhattan de los peores criminales o villanos y compatibilizarlo con su vida personal.",
+    "image": "https://img.youtube.com/vi/LTqczRnNqDc/maxresdefault.jpg",
+    "genre": ["Acción", "Aventura"],
+    "platform": ["PS4", "PS5", "PC"],
+    "gameplay": "https://www.youtube.com/watch?v=Qo0ASfp3IMA"
+  },
+  {
+    "name": "Counter-Strike: Global Offensive",
+    "description": "Counter-Strike: Global Offensive es un videojuego de disparos en primera persona desarrollado por Valve Corporation y Hidden Path Entertainment. Es el cuarto juego de la saga Counter-Strike.",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3MtrUWjaPNfnKZ6vOHpSTG3AM4qDJan_mbA&usqp=CAU",
+    "genre": ["Disparos", "Competitivo multijugador"],
+    "platform": ["PS4", "PC", "XBOX"],
+    "gameplay": "https://www.youtube.com/watch?v=v49U99Tw_b4"
+  },
+  {
+    "name": "League of Legends",
+    "description": "Counter-Strike: Global Offensive es un videojuego de disparos en primera persona desarrollado por Valve Corporation y Hidden Path Entertainment. Es el cuarto juego de la saga Counter-Strike.",
+    "image": "https://www.mundodeportivo.com/alfabeta/hero/2020/11/Guia-completa-de-League-of-Legends-trucos-y-secretos.jpg?width=768&aspect_ratio=16:9&format=nowebp",
+    "genre": ["Competitivo multijugador"],
+    "platform": ["PC"],
+    "gameplay": "https://www.youtube.com/watch?v=mUAbaBYm5C0"
+  },
+  {
+    "name": "World of Warcraft",
+    "description": "World of Warcraft es un videojuego de rol multijugador masivo en línea desarrollado por Blizzard Entertainment. Es el cuarto juego lanzado establecido en el universo fantástico de Warcraft, el cual fue introducido por primera vez por Warcraft: Orcs & Humans en 1994.​",
+    "image": "https://media.vandal.net/i/1200x630/3-2022/20223813522364_1.jpg",
+    "genre": ["Rol", "Competitivo multijugador"],
+    "platform": ["PC"],
+    "gameplay": "https://www.youtube.com/embed/wmv74lyi5KA"
+  },
+  {
+    "name": "NBA 2K23",
+    "description": "NBA 2K23 trae de vuelta el mejor baloncesto de 2K Sports, que durante dos décadas ha logrado establecerse como una pieza clave de la cultura del baloncesto al crear videojuegos de basket con una experiencia inmersiva en la palma de la mano de cada jugador.​",
+    "image": "https://blog.playstation.com/tachyon/2023/05/a662ba916cdcf34d035038cb97252b789d07acf8-scaled.jpg?fit=1024%2C1024",
+    "genre": ["Deportes"],
+    "platform": ["PS4", "PS5", "PC", "XBOX", "NINTENDO"],
+    "gameplay": "https://www.youtube.com/watch?v=GC3dZnJC4ds"
+  },
+  {
+    "name": "Final Fantasy XV",
+    "description": "Final Fantasy XV es un videojuego del género ARPG desarrollado por Square Enix, para PlayStation 4, Xbox One y Microsoft Windows.​ Junto con Final Fantasy XIII, Final Fantasy XIII-2, Final Fantasy Type-0 y Lightning Returns: Final Fantasy XIII, forma parte del proyecto Fabula Nova Crystallis: Final Fantasy.​",
+    "image": "https://areajugones.sport.es/wp-content/uploads/2022/05/final-fantasy-xv-1080x609.jpg",
+    "genre": ["Rol", "Acción"],
+    "platform": ["PS4", "PC", "XBOX"],
+    "gameplay": "https://www.youtube.com/watch?v=85KvfV7kRwQ&list=PLQ2-ZHxVR7-EmvaNKSuCf9QDqGS5tFSAw"
+  },
+  {
+    "name": "Resident Evil 4",
+    "description": "Resident Evil 4 es un remake del Resident Evil 4 original del 2005. Survival Horror de última generación reimaginado para el año 2023.​",
+    "image": "https://gaming-cdn.com/images/products/6772/orig/resident-evil-4-pc-juego-steam-europe-cover.jpg?v=1684153325",
+    "genre": ["Aventura", "Acción"],
+    "platform": ["PS4", "PS5", "PC", "XBOX"],
+    "gameplay": "https://www.youtube.com/watch?v=vQR8AB-JKpI"
+  },
+  {
+    "name": "Grand Theft Auto V",
+    "description": "Un joven estafador callejero, un ladrón de bancos retirado y un psicópata aterrador se meten en un lío, y tendrán que llevar a cabo una serie de peligrosos golpes para sobrevivir en una ciudad en la que no pueden confiar en nadie, y mucho menos los unos en los otros.​",
+    "image": "https://cdn.hobbyconsolas.com/sites/navi.axelspringer.es/public/media/image/2022/03/gta-v-ps5-series-x-2644421.jpg?tf=3840x",
+    "genre": ["Aventura", "Acción"],
+    "platform": ["PS4", "PC", "XBOX"],
+    "gameplay": "https://www.youtube.com/watch?v=CTzNKSouWfM"
+  },
+  {
+    "name": "Left 4 Dead 2",
+    "description": "Left 4 Dead 2 es un videojuego de disparos en primera persona cooperativo de tipo videojuego de terror creado por la compañía Valve. Es la secuela de Left 4 Dead y se lanzó al mercado el 17 de noviembre de 2009 en Estados Unidos y América. En Europa llegó tres días después, el 20 de noviembre.​",
+    "image": "https://cdn.akamai.steamstatic.com/steam/apps/550/capsule_616x353.jpg?t=1675801903",
+    "genre": ["Disparos", "Acción"],
+    "platform": ["PC", "XBOX"],
+    "gameplay": "https://www.youtube.com/watch?v=Il_3FUz2ynU"
+  },
+  {
+    "name": "The Elder Scrolls V: Skyrim",
+    "description": "La agitación se extiende por el Imperio de Tamriel. El soberano de Skyrim ha sido asesinado. A medida que surgen aspirantes al trono, se van formando alianzas. En mitad de este conflicto, resurge un antiguo mal mucho más peligroso: los dragones, olvidados hace tiempo entre oscuros pasajes de los antiguos pergaminos, han regresado a Tamriel. El futuro de Skyrim, incluso el del propio Imperio, pende de un hilo, mientras aguardan la llegada vaticinada del Sangre de dragón, un héroe dotado del poder de La Voz, el único que puede hacer frente a los dragones.​",
+    "image": "https://fs-prod-cdn.nintendo-europe.com/media/images/10_share_images/games_15/nintendo_switch_4/H2x1_NSwitch_TheElderScrollsVSkyrim_image1600w.jpg",
+    "genre": ["Acción", "Rol"],
+    "platform": ["PC", "PS4", "XBOX", "NINTENDO"],
+    "gameplay": "https://www.youtube.com/watch?v=lI1lkPPMPQQ"
+  },
+  {
+    "name": "Borderlands 2",
+    "description": "La agitación se extiende por el Imperio de Tamriel. El soberano de Skyrim ha sido asesinado. A medida que surgen aspirantes al trono, se van formando alianzas. En mitad de este conflicto, resurge un antiguo mal mucho más peligroso: los dragones, olvidados hace tiempo entre oscuros pasajes de los antiguos pergaminos, han regresado a Tamriel. El futuro de Skyrim, incluso el del propio Imperio, pende de un hilo, mientras aguardan la llegada vaticinada del Sangre de dragón, un héroe dotado del poder de La Voz, el único que puede hacer frente a los dragones.​",
+    "image": "https://cdn2.unrealengine.com/Diesel%2Fproductv2%2Fborderlands-2%2Fhome%2FEGS_Borderlands2_GearboxSoftware_S5-1360x766-8546dab7d7968b51fae34f402d61c1f9ea1b6891.jpg",
+    "genre": ["Acción", "Disparos", "Rol"],
+    "platform": ["PC", "PS4", "XBOX", "PS5"],
+    "gameplay": "https://www.youtube.com/watch?v=kP1HcL-9_bM"
+  },
+  {
+    "name": "God of War (2018)",
+    "description": "God of War es un videojuego de acción-aventura desarrollado por SCE Santa Monica Studio y publicado por Sony Interactive Entertainment. Su lanzamiento se produjo el 20 de abril de 2018 como un título exclusivo para la consola PlayStation 4.​ Posteriormente, fue lanzado en Microsoft Windows el 14 de enero de 2022.​",
+    "image": "https://image.api.playstation.com/vulcan/img/rnd/202010/2217/p3pYq0QxntZQREXRVdAzmn1w.png",
+    "genre": ["Acción", "Disparos", "Rol"],
+    "platform": ["PC", "PS4", "PS5"],
+    "gameplay": "https://www.youtube.com/watch?v=0823cMjhr_0"
+  },
+  {
+    "name": "Cyberpunk 2077",
+    "description": "Cyberpunk 2077 es un RPG de aventura y acción de mundo abierto ambientado en el futuro sombrío de Night City, una peligrosa megalópolis obsesionada con el poder, el glamur y la modificación corporal constante.​",
+    "image": "https://cdn1.epicgames.com/offer/77f2b98e2cef40c8a7437518bf420e47/EGS_Cyberpunk2077_CDPROJEKTRED_S1_03_2560x1440-359e77d3cd0a40aebf3bbc130d14c5c7",
+    "genre": ["Acción", "Aventura", "Rol"],
+    "platform": ["PC", "PS4", "PS5", "XBOX"],
+    "gameplay": "https://www.youtube.com/watch?v=lQsZh_evmuQ"
+  },
+  {
+    "name": "Hearthstone",
+    "description": "Hearthstone es un juego de cartas coleccionables en línea creado por la empresa Blizzard Entertainment. Está centrado en el universo de Warcraft, y es de descarga gratuita, aunque con compras opcionales para acelerar el ritmo de colección de cartas y acceso a contenidos extra.​",
+    "image": "https://www.mundodeportivo.com/alfabeta/hero/2021/12/og_image-2e1ee3c5546d60c597788e9d2852cfca86b2322dd574acf7fe4d322d94ead7097cd6a021c716b44d572711b840bf1f106a300fbaebce3a020554c177a918ee6b.jpg?width=768&aspect_ratio=16:9&format=nowebp",
+    "genre": ["Competitivo multijugador", "Estrategia"],
+    "platform": ["PC"],
+    "gameplay": "https://www.youtube.com/watch?v=ZvxtfX5Ky3E"
+  },
+  {
+    "name": "Rocket League",
+    "description": "Rocket League es un videojuego que combina el fútbol con los vehículos. Fue desarrollado por Psyonix y lanzado el 7 de julio de 2015. Fue lanzado Free to play en septiembre de 2020. Se encuentra disponible en español, y tiene modos de juego cooperativo, de un jugador y en línea.​",
+    "image": "https://fs-prod-cdn.nintendo-europe.com/media/images/10_share_images/games_15/nintendo_switch_download_software_1/H2x1_NSwitchDS_RocketLeague_image1600w.jpg",
+    "genre": ["Competitivo multijugador", "Deportes", "Carreras"],
+    "platform": ["PC", "NINTENDO", "PS4", "PS5", "XBOX"],
+    "gameplay": "https://www.youtube.com/watch?v=5pDB-g8Cb1Q"
+  },
+  {
+    "name": "Apex Legends",
+    "description": "Apex Legends es un videojuego gratuito perteneciente a los géneros battle royale y hero shooter en primera persona, desarrollado por Respawn Entertainment y publicado por Electronic Arts. Fue lanzado para Microsoft Windows, PlayStation 4 y Xbox One el 4 de febrero de 2019.​",
+    "image": "https://fs-prod-cdn.nintendo-europe.com/media/images/10_share_images/games_15/nintendo_switch_download_software_1/H2x1_NSwitchDS_RocketLeague_image1600w.jpg",
+    "genre": ["Competitivo multijugador", "Acción", "Aventura", "Disparos"],
+    "platform": ["PC", "NINTENDO", "PS4", "PS5", "XBOX"],
+    "gameplay": "https://www.youtube.com/watch?v=iWAWa6B2td8"
+  },
+  {
+    "name": "Stardew Valley",
+    "description": "Stardew Valley es un videojuego indie de simulación de granja desarrollado por Eric ConcernedApe Barone y publicado por Chucklefish Games. El juego se lanzó en primer lugar para Windows el 26 de febrero de 2016, y luego para los sistemas operativos OS X y Linux.​",
+    "image": "https://image.api.playstation.com/vulcan/img/rnd/202102/1922/ajZXwKlWvBPfznci6hSGZoOr.png",
+    "genre": ["Rol"],
+    "platform": ["PC", "NINTENDO", "PS4", "XBOX"],
+    "gameplay": "https://www.youtube.com/watch?v=OwfE1-OimQ0"
+  },
+  {
+    "name": "Hogwarts Legacy",
+    "description": "Hogwarts Legacy es un juego de rol de acción de 2023 desarrollado por Avalanche Software y publicado por Warner Bros. Games bajo su sello Portkey Games. El juego está ambientado en el universo Wizarding World, basado en las novelas de Harry Potter.​",
+    "image": "https://cdn1.epicgames.com/offer/e97659b501af4e3981d5430dad170911/EGS_HogwartsLegacy_AvalancheSoftware_S1_2560x1440-2baf3188eb3c1aa248bcc1af6a927b7e",
+    "genre": ["Acción", "Rol"],
+    "platform": ["PC", "NINTENDO", "PS4", "PS5", "XBOX"],
+    "gameplay": "https://www.youtube.com/watch?v=aNfEP8ljwpg"
+  },
+  {
+    "name": "For Honor",
+    "description": "For Honor es un videojuego de acción en tercera persona que destacó por su sistema de combate tridireccional. Ha sido desarrollado por Ubisoft Montreal y distribuido por Ubisoft para las plataformas Microsoft Windows, PlayStation 4 y Xbox One. El juego se centra en el combate medieval y consta de cuatro​ facciones a las cuales los jugadores podrán escoger entre caballero, samurai, vikingo​ o wu lin ​",
+    "image": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/7Gvgp3BRN1mNtb18XICaRZ/344574f0aeb0b75b94531572dbbcdcf6/ForHonor_og_meta.jpg",
+    "genre": ["Acción", "Competitivo multijugador"],
+    "platform": ["PC", "PS4", "XBOX"],
+    "gameplay": "https://www.youtube.com/watch?v=MFz8uOz2XV0"
+  },
+  {
+    "name": "DOOM (2016)",
+    "description": "Doom es un videojuego de acción, de disparos en primera persona desarrollado por id Software y publicado por Bethesda Softworks. Es el cuarto título de la serie principal y la primera gran entrega desde Doom 3 en 2004.​",
+    "image": "https://tus-videojuegos.com/wp-content/uploads/2017/08/doom-2016-scaled.jpg",
+    "genre": ["Acción", "Disparos"],
+    "platform": ["PC", "PS4", "XBOX", "NINTENDO"],
+    "gameplay": "https://www.youtube.com/watch?v=UOJhtTTXKC8"
+  },
+  {
+    "name": "Infestation: The New Z",
+    "description": "The New Z es una experiencia multi-modo de juego gratis. Sobrevive con tus amigos en SURVIVAL y encuentra recursos/armas en un mundo infestado de zombies. Entra en guerra con otros grupos en uno de nuestros mundos gigantescos en OPEN WORLD. Tres experiencias, un juego.​",
+    "image": "https://cdn.akamai.steamstatic.com/steam/apps/555570/capsule_616x353.jpg?t=1623420486",
+    "genre": ["Acción", "Disparos", "Competitivo multijugador", "Aventura"],
+    "platform": ["PC"],
+    "gameplay": "https://www.youtube.com/watch?v=MzdcmpMWh00"
+  },
+  {
+    "name": "DayZ",
+    "description": "Basado en el mod desarrollado para el juego Arma2, Bohemia Interactive nos sumerge en un juego de acción donde la supervivencia y la invasión zombie del estado post soviético de Chernarus serán los protagonistas. El objetivo del jugador será buscar armas, medicinas y agua para no solo sobrevivir, sino también acabar con las hordas de violentos enemigos a los que tendrá que enfrentarse. El componente survival se mezcla con el multijugador online en un título cargado de acción incesante.​",
+    "image": "https://cdn.dlcompare.com/game_tetiere/upload/gameimage/file/38659.jpeg",
+    "genre": ["Acción", "Disparos", "Aventura"],
+    "platform": ["PC", "PS4", "XBOX"],
+    "gameplay": "https://www.youtube.com/watch?v=u1AYM6Qeaac"
+  },
+  {
+    "name": "Sniper Elite 5",
+    "description": "Sniper Elite 5 es un videojuego de acción-shooter y combates tácticos en tercera persona donde una vez más se garantiza una experiencia sin parangón a la hora de disparar con un fusil de francotirador. Con una cámara de muertes mejorada, Rebellion busca permitir a sus reclutsr luchar en los mapas más inmersivos hechos hasta la fecha en la franquicia, con multitud de ubicaciones del mundo real capturadas hasta el más mínimo detalle y un sistema transversal mejorado que te permitirá explorarlos más que nunca.​",
+    "image": "https://cdn1.epicgames.com/offer/18ad196e381b4331bf856e71a85ee0df/EGS_SniperElite5_Rebellion_S1_2560x1440-c4042effc36f088367685779bdf90429",
+    "genre": ["Acción", "Disparos", "Aventura"],
+    "platform": ["PC", "PS4", "PS5", "XBOX"],
+    "gameplay": "https://www.youtube.com/watch?v=dUtjJnpoNrE"
+  },
+  {
+    "name": "Half-Life 2",
+    "description": "Half-Life 2 es la continuación del videojuego Half-Life, una videoaventura de disparos en primera persona. Anteriormente el videojuego se vendía junto a Counter-Strike: Source la secuela de Counter-Strike con el nuevo motor gráfico y el motor físico implantados y los niveles totalmente rediseñados.​",
+    "image": "https://cdn.akamai.steamstatic.com/steam/apps/220/header.jpg",
+    "genre": ["Acción", "Disparos"],
+    "platform": ["PC", "XBOX"],
+    "gameplay": "https://www.youtube.com/watch?v=SXQ5AaffgL8"
+  },
+  {
+    "name": "Sid Meier's Civilization V",
+    "description": "Sid Meier's Civilization V es un videojuego de estrategia por turnos desarrollado por Firaxis Games y distribuido por 2K Games, y el quinto de la serie Civilization. Fue publicado en Estados Unidos el 21 de septiembre de 2010 y en Europa el 24 de septiembre del mismo año.​",
+    "image": "https://cdn.akamai.steamstatic.com/steam/apps/8930/header.jpg?t=1579731804",
+    "genre": ["Estrategia"],
+    "platform": ["PC"],
+    "gameplay": "https://www.youtube.com/watch?v=oGGchJop5yo"
+  }
 ]

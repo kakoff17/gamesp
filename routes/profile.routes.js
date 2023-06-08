@@ -9,7 +9,8 @@ const {emailValidation, passValidation }= require("../utils/verification")
 router.get("/", isAuthenticated, async (req, res, next) => {
   const userId = req.payload._id;
   try {
-    const profile = await User.findById(userId);
+    const profile = await User.findById(userId).populate("favGame");
+    //console.log(profile)
     res.json(profile);
   } catch (error) {
     next(error);
