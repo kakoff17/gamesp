@@ -2,7 +2,7 @@
 
 ## [Visita la página](https://gamesp.netlify.app/)
 
-![GAMESP LOGO](https://imgur.com/gAwIOI5)
+![GAMESP LOGO](https://i.imgur.com/gAwIOI5.png)
 
 ## Descripción
 
